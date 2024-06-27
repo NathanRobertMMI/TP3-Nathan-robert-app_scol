@@ -1,0 +1,56 @@
+section {
+    padding: 30px;
+    width: calc(100% - 60px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e0f7fa; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10%;
+
+}
+
+section img {
+    width: 40%;
+    border-radius: 8px;
+    box-shadow: 2 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    color: #007bb5; 
+}
+
+section table {
+    border: 1px solid #007bb5; 
+    border-collapse: collapse;
+    width: 90%;
+    max-width: 100%;
+    background-color: #ffffff; 
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+section table th {
+    background-color: #007bb5; 
+    color: white;
+    padding: 8px;
+    border: none;
+}
+
+section table td, section table th {
+    border: 1px solid #007bb5; 
+    text-align: center;
+    padding: 8px;
+}
+
+section table tr:nth-child(2n+1) {
+    background-color: #e1f5fe; 
+}
+
+section table tr:nth-child(2n) {
+    background-color: #ffffff; 
+}
